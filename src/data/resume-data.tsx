@@ -36,7 +36,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Unsplash",
-        url: "https://unsplash.com/",
+        url: "https://unsplash.com/@qwerzl",
         icon: UnsplashIcon,
       },
     ],
