@@ -20,8 +20,8 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon, UnsplashIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Tom Tang",
-  initials: "TT",
+  name: "Weicheng Tang",
+  initials: "WT",
   location: "Shanghai, China",
   locationLink: "https://www.google.com/maps/place/Shanghai",
   avatarUrl: "https://avatars.githubusercontent.com/u/46770502?v=4",
