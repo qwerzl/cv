@@ -81,7 +81,7 @@ export const RESUME_DATA = {
     },
     {
       name: "Hardware Engineer",
-      description: "Leading the Enspire project at SWFLA",
+      description: "Dealt with ESP32, Arduino, tons of circuits...",
       start: "2023",
       end: "Present",
     },
