@@ -17,262 +17,175 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, UnsplashIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  name: "Tom Tang",
+  initials: "TT",
+  location: "Shanghai, China",
+  locationLink: "https://www.google.com/maps/place/Shanghai",
+  avatarUrl: "https://avatars.githubusercontent.com/u/46770502?v=4",
+  personalWebsiteUrl: "https://qwerzl.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "me@qwerzl.me",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/qwerzl",
         icon: GitHubIcon,
       },
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "Unsplash",
+        url: "https://unsplash.com/",
+        icon: UnsplashIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Shanghai World Foreign Language Academy",
+      degree: "IB Diploma Programme",
+      start: "2022",
+      end: "2025",
     },
   ],
-  work: [
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
-  ],
+
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
+    "Visual arts",
+    "Vue/Nuxt",
+    "Interactive Media",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Embedded Devices",
   ],
+
+  extracurriculars: [
+    {
+      name: "Nuxt.js Member",
+      description: "@nuxt/fonts Co-Maintainer",
+      start: "2024",
+      end: "Present",
+    },
+    {
+      name: "Unsplash Artist",
+      description: "Rendering and photography, 460k+ Views",
+      start: "2023",
+      end: "Present",
+    },
+    {
+      name: "Open Source Contributor",
+      description: "Contributing to 10+ open source projects",
+      start: "2021",
+      end: "Present",
+    },
+    {
+      name: "Hardware Engineer",
+      description: "Leading the Enspire project at SWFLA",
+      start: "2023",
+      end: "Present",
+    },
+    {
+      name: "Leader at Computerization",
+      description: "Leading the Enspire project at SWFLA (Till present, actually)",
+      start: "2023",
+      end: "2024",
+    },
+    {
+      name: "Co-Leader at Techomedia",
+      description: "Organized TEDxSWFLA, Oridebate (School-wide debate competition), and more",
+      start: "2023",
+      end: "2024",
+    },
+    {
+      name: "Core Member at MoDi",
+      description: "Took part in our Shanghai Ancient Architecture Preservation Project - Scanned historical buildings like Xujiahui Cathedral into 3D models",
+      start: "2023",
+      end: "2024",
+    },
+  ],
+
+  awards: [
+    {
+      name: "HiMCM Meritorous",
+      description: "Team leader",
+    },
+    {
+      name: "USACO Platinum",
+      description: "Algorithms all the way",
+    },
+    {
+      name: "AMC Top 5% Distinction",
+      description: "Math!",
+    },
+    {
+      name: "AIME 9 Points",
+      description: "Not an award, but pretty proud of it",
+    }
+  ],
+
   projects: [
     {
-      title: "Consultly",
+      title: "Enspire",
       techStack: [
-        "Side Project",
+        "Computerization",
         "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Nuxt.js",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Make CAS life great again in SWFLA",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com/computerization/enspire",
+        href: "https://github.com/computerization/enspire",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Claw",
+      techStack: ["Interactive Arts", "Installation Arts", "Embedded", "ESP32"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Installation art that reacts to the relationship between Theology, Philosophy and Science",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "github.com/qwerzl/claw",
+        href: "https://github.com/qwerzl/claw",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Nuxt Fonts",
+      techStack: ["Nuxt.js", "Typescript"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Plug-and-play web font optimization and configuration for Nuxt apps.",
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/nuxt/fonts/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+      title: "MindSki",
+      techStack: ["Three.js", "EEG", "Game"],
+      description: "Skiing game controlled by your mind to reach a level of attention using EEG",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "",
+        href: "",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "YAAMRPC",
+      techStack: ["C++"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Yet another Discord Rich Presence tool for Apple Music",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "github.com/qwerzl/Yet-Another-AppleMusicRPC",
+        href: "https://github.com/qwerzl/Yet-Another-AppleMusicRPC",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Docusaurus",
+      techStack: ["React", "Typescript"],
+      description:
+        "Created a few pull requests",
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "docusaurus.io",
+        href: "https://docusaurus.io/",
       },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
