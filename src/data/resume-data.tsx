@@ -63,64 +63,75 @@ export const RESUME_DATA = {
   extracurriculars: [
     {
       name: "Nuxt.js Member",
-      description: "@nuxt/fonts Co-Maintainer",
+      description: "A team developing open-source website frameworks used by millions including Google, OpenAI and NASA.",
       start: "2024",
       end: "Present",
+      link: "https://github.com/nuxt"
     },
     {
       name: "Unsplash Artist",
-      description: "Rendering and photography, 460k+ Views",
+      description: "Rendering and photography, 550k+ Views",
       start: "2023",
       end: "Present",
+      link: "https://unsplash.com/@qwerzl"
     },
     {
       name: "Open Source Contributor",
       description: "Contributing to 10+ open source projects",
       start: "2021",
       end: "Present",
+      link: "https://github.com/qwerzl"
     },
     {
       name: "Hardware Engineer",
       description: "Dealt with ESP32, Arduino, tons of circuits...",
       start: "2023",
       end: "Present",
+      link: "https://github.com/qwerzl"
     },
     {
       name: "Leader at Computerization",
       description: "Leading the Enspire project at SWFLA (Till present, actually)",
       start: "2023",
       end: "2024",
+      link: "https://github.com/computerization"
     },
     {
       name: "Co-Leader at Techomedia",
       description: "Organized TEDxSWFLA, Oridebate (School-wide debate competition), and more",
       start: "2023",
       end: "2024",
+      link: "",
     },
     {
       name: "Core Member at MoDi",
       description: "Took part in our Shanghai Ancient Architecture Preservation Project - Scanned historical buildings like Xujiahui Cathedral into 3D models",
       start: "2023",
       end: "2024",
+      link: "",
     },
   ],
 
   awards: [
     {
       name: "HiMCM Meritorous",
-      description: "Team leader",
+      description: "The High School Mathematical Contest in Modeling. Team leader.",
+      link: "https://www.comap.com/contests/himcm-midmcm"
     },
     {
       name: "USACO Platinum",
-      description: "Algorithms all the way",
+      description: "USA Computing Olympiad. Platinum is the highest stage.",
+      link: "https://usaco.org/"
     },
     {
       name: "AMC Top 5% Distinction",
-      description: "Math!",
+      description: "American Math Competition. Math!",
+      link: "https://maa.org/student-programs/amc/"
     },
     {
       name: "AIME 9 Points",
-      description: "Not an award, but pretty proud of it",
+      description: "American Invitational Mathematics Examination.",
+      link: "https://maa.org/maa-invitational-competitions/"
     }
   ],
 
@@ -132,10 +143,19 @@ export const RESUME_DATA = {
         "TypeScript",
         "Nuxt.js",
       ],
-      description: "Make CAS life great again in SWFLA",
+      description: "On-Campus Information Management System for club leaders",
       link: {
         label: "github.com/computerization/enspire",
         href: "https://github.com/computerization/enspire",
+      },
+    },
+    {
+      title: "MindSki",
+      techStack: ["Three.js", "EEG", "Game"],
+      description: "Skiing game to help players understand and train their ability to concentrate using EEG Devices",
+      link: {
+        label: "ski.qwerzl.me",
+        href: "https://ski.qwerzl.me",
       },
     },
     {
@@ -144,8 +164,8 @@ export const RESUME_DATA = {
       description:
         "Installation art that reacts to the relationship between Theology, Philosophy and Science",
       link: {
-        label: "github.com/qwerzl/claw",
-        href: "https://github.com/qwerzl/claw",
+        label: "untitled.lol/portfolio/claw/",
+        href: "https://untitled.lol/portfolio/claw/",
       },
     },
     {
@@ -154,27 +174,8 @@ export const RESUME_DATA = {
       description:
         "Plug-and-play web font optimization and configuration for Nuxt apps.",
       link: {
-        label: "github.com",
+        label: "github.com/nuxt/fonts/",
         href: "https://github.com/nuxt/fonts/",
-      },
-    },
-    {
-      title: "MindSki",
-      techStack: ["Three.js", "EEG", "Game"],
-      description: "Skiing game controlled by your mind to reach a level of attention using EEG",
-      link: {
-        label: "",
-        href: "",
-      },
-    },
-    {
-      title: "YAAMRPC",
-      techStack: ["C++"],
-      description:
-        "Yet another Discord Rich Presence tool for Apple Music",
-      link: {
-        label: "github.com/qwerzl/Yet-Another-AppleMusicRPC",
-        href: "https://github.com/qwerzl/Yet-Another-AppleMusicRPC",
       },
     },
     {

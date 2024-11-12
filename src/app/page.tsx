@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name}`,
@@ -148,9 +149,9 @@ export default function Page() {
               <Card key={extracurricular.name}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
+                    <Link href={extracurricular.link}  className="font-semibold leading-none hover:underline">
                       {extracurricular.name}
-                    </h3>
+                    </Link>
                     <div className="text-sm tabular-nums text-gray-500">
                       {extracurricular.start} - {extracurricular.end}
                     </div>
@@ -169,9 +170,9 @@ export default function Page() {
               <Card key={award.name}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
+                    <Link href={award.link} className="font-semibold leading-none hover:underline">
                       {award.name}
-                    </h3>
+                    </Link>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{award.description}</CardContent>
